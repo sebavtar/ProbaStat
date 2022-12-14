@@ -32,7 +32,7 @@ En guise de première rencontre avec une **variable aléatoire**, on va commence
 - les rôles de la moyenne et de la variance;
 - la définition des fonction $ \phi $ et $ \Phi $.
 
-````{prf:definition} Varibale aléatoire normale
+````{prf:definition} Variable aléatoire normale
 :label: my-definition
 
 Une variable aléatoire $X$ suit une **loi normale** (ou Gaussienne) $ \mathcal{N}(\mu,\sigma^2)$ si et seulement si elle admet pour densité la fonction
