@@ -64,6 +64,8 @@ Un système contient $n$ composants qui fonctionnent en parallèle: le système 
 Soient $A_1, \dots, A_i,\dots, A_n$ les événements « Le $i$ième composant tombe en panne ». Alors pour que le système tombe en panne, il faut 
 - dans le cas du système en parallèle, que tous les composants tombent simultanément en panne. La probabilité de cet événement est donc
 \begin{gather*} \mathbb{P}(\bigcap_{i =1 }^n A_i) = \prod_{i = 1}^n \mathbb{P}(A_i) = \prod_{i = 1}^n p_i .\end{gather*}
+Donc la probabilité que le système marche est \begin{gather*} 1-\mathbb{P}(\bigcap_{i =1 }^n A_i) = 1-\prod_{i = 1}^n p_i\end{gather*}
+
 - dans le cas du système en série, qu'au moins un composant tombe en panne, ce qui correspond à l'événement $\bigcup_{i =1 }^n A_i$.
 On peut alors calculer la probabilité de cet événement en utilisant les lois de De Morgan:
 \begin{align*}
